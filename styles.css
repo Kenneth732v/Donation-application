@@ -1,0 +1,31 @@
+#display-user-data{
+    width: 100%;
+    /* margin-left: 5%; */
+    position: absolute;
+    /* margin-right: 5%; */
+    display: grid;
+    padding: 0 2%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+    /* background: red; */
+    gap: 20px;
+}
+.container{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+.img{
+    /* border: 3px solid red; */
+    height: 36vh;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+
+.content-box{
+    /* border: 4px solid #000; */
+    text-align: center;
+    align-items: center;
+}
